@@ -1,0 +1,132 @@
+---
+title: "Live Call Transfers to Your Team Members"
+sidebarTitle: "Call Transfers"
+description: "Route calls to the right person instantly — warm transfers include a live introduction so callers never have to repeat themselves. Scale and Growth plans."
+---
+
+Ring Jenny doesn't just take messages — it can pass calls directly to a human when the moment calls for it. Configure rules so Ring Jenny knows exactly when to transfer, who to send the call to, and how to hand it off. Available on the **Scale** and **Growth** plans.
+
+## Two Types of Call Transfers
+
+Ring Jenny supports two transfer methods. Choose the one that fits the situation — or use both for different scenarios.
+
+<Tabs>
+  <Tab title="Warm Transfer">
+    **Ring Jenny stays on the line, introduces the caller, then steps away.**
+
+    In a warm transfer, Ring Jenny bridges the caller and your team member together before dropping off. Your team member hears a brief introduction — who's calling and why — so they can jump straight into the conversation with full context.
+
+    **Best for:** billing questions, sensitive matters, VIP callers, or any situation where the caller shouldn't have to re-explain themselves.
+
+    **How it flows:**
+    1. Ring Jenny recognizes the transfer trigger (e.g., "I need to speak with billing")
+    2. Ring Jenny tells the caller: *"Let me connect you with someone who can help — please hold for just a moment."*
+    3. Ring Jenny dials your team member and introduces the caller: *"Hi Sarah, I have John calling about a billing question."*
+    4. Ring Jenny drops off and the conversation continues between the caller and your team member.
+
+    **Setup:**
+    1. Go to **Dashboard > Settings > Call Transfers**
+    2. Add the team member's name and phone number
+    3. Set the transfer type to **Warm**
+    4. Define your trigger rules (see [Transfer Triggers](#transfer-triggers) below)
+  </Tab>
+  <Tab title="Cold Transfer">
+    **Ring Jenny immediately routes the call without an introduction.**
+
+    In a cold transfer, Ring Jenny connects the caller directly to your team member's line the moment the trigger fires. No introduction, no hold — the call passes through right away.
+
+    **Best for:** simple routing (e.g., "press to reach the front desk"), high-volume situations, or when speed matters more than context.
+
+    **How it flows:**
+    1. Ring Jenny recognizes the transfer trigger
+    2. Ring Jenny tells the caller: *"I'll connect you now — one moment."*
+    3. The call is immediately forwarded to the team member's number.
+
+    **Setup:**
+    1. Go to **Dashboard > Settings > Call Transfers**
+    2. Add the team member's name and phone number
+    3. Set the transfer type to **Cold**
+    4. Define your trigger rules
+  </Tab>
+</Tabs>
+
+<Tip>
+  Use warm transfers for important or sensitive calls. Your team member gets context before saying a single word — no awkward "wait, who is this?" moments.
+</Tip>
+
+## Transfer Triggers
+
+Triggers tell Ring Jenny when to initiate a transfer. Set as many rules as you need.
+
+<CardGroup cols={2}>
+  <Card title="Caller Asks for a Specific Person" icon="user">
+    *"Transfer any call that asks for Sarah or mentions Sarah's name."*
+  </Card>
+  <Card title="Caller Mentions a Topic" icon="tag">
+    *"Transfer all calls about billing, invoices, or payment issues."*
+  </Card>
+  <Card title="Emergency Keywords" icon="circle-exclamation">
+    *"Transfer any call that mentions an emergency, urgent, or immediately."*
+  </Card>
+  <Card title="Ring Jenny Can't Answer" icon="circle-question">
+    *"Transfer if Ring Jenny doesn't have a confident answer to the caller's question."*
+  </Card>
+</CardGroup>
+
+### Example Transfer Rules
+
+Here are ready-to-use trigger examples you can add directly in your settings:
+
+| Trigger Phrase | Route To | Transfer Type |
+|---|---|---|
+| "Billing," "invoice," "charge," "payment" | Sarah (Billing) | Warm |
+| "Emergency," "urgent," "ASAP" | On-call Manager | Warm |
+| "I'd like to speak with the owner" | Owner's cell | Warm |
+| "Schedule a consultation" | Sales line | Cold |
+| Ring Jenny unsure of answer | General team line | Cold |
+
+## Set Up Call Transfers
+
+<Steps>
+  <Step title="Open Call Transfer settings">
+    Navigate to **Dashboard > Settings > Call Transfers**.
+  </Step>
+  <Step title="Add team members">
+    Click **Add Recipient** and enter each team member's name and direct phone number. You can add as many recipients as your plan allows.
+  </Step>
+  <Step title="Choose warm or cold transfer">
+    For each recipient, select whether calls routed to them should use a warm or cold transfer.
+  </Step>
+  <Step title="Set transfer triggers">
+    Click **Add Rule** and define what should trigger the transfer — a keyword, a topic, or a specific request type. You can add multiple triggers per recipient.
+  </Step>
+  <Step title="Test a transfer">
+    Call your Ring Jenny number and use one of your trigger phrases. Confirm that Ring Jenny initiates the transfer correctly and that the right team member's phone rings.
+  </Step>
+</Steps>
+
+## When a Transfer Doesn't Connect
+
+<Note>
+  If the team member doesn't answer, Ring Jenny doesn't leave the caller stranded. You can configure Ring Jenny to automatically offer the caller one of the following fallback options:
+
+  - **Take a message** — Ring Jenny captures the caller's name, number, and reason for calling
+  - **Schedule a callback** — Ring Jenny books a time for a team member to call back
+  - **Voicemail** — forward to the team member's voicemail directly
+
+  Set your preferred fallback in **Dashboard > Settings > Call Transfers > Fallback Behavior**.
+</Note>
+
+## Frequently Asked Questions
+
+<Accordion title="Can I set up transfers to multiple team members?">
+  Yes. Add as many team members as you need. You can also set a priority order — Ring Jenny tries the first number, and if there's no answer, it tries the next one before falling back to your configured fallback behavior.
+</Accordion>
+
+<Accordion title="Can I limit transfers to certain hours?">
+  Yes. For each transfer rule, set the active hours during which Ring Jenny should attempt the transfer. Outside those hours, Ring Jenny falls back to your configured after-hours behavior automatically.
+</Accordion>
+
+<Accordion title="Will the caller know they're being transferred?">
+  Yes — Ring Jenny always tells the caller before initiating a transfer so there's no confusion or dead air on the line.
+</Accordion>

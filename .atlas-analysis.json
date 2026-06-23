@@ -1,30 +1,11 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
+  "projectType": "saas",
+  "projectName": "Ring Jenny",
+  "projectDescription": "Ring Jenny is an AI receptionist SaaS that answers business calls 24/7, filters spam, books appointments, and sends instant call notifications and transcripts.",
   "theme": "almond",
-  "name": "Ring Jenny",
-  "colors": {
-    "primary": "#ef7025",
-    "light": "#eec9bc",
-    "dark": "#4fa1ab"
-  },
-  "favicon": "/favicon.svg",
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:support@ringjenny.com"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Get Started Free",
-      "href": "https://www.ringjenny.com"
-    }
-  },
+  "primaryColor": "#ef7025",
+  "lightColor": "#eec9bc",
+  "darkColor": "#4fa1ab",
   "navigation": {
     "tabs": [
       {
@@ -79,9 +60,27 @@
       }
     ]
   },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/ringjenny"
-    }
-  }
+  "keyFeatures": [
+    "24/7 AI call answering",
+    "Appointment booking on call",
+    "Spam and robocall filtering",
+    "Live call transfers to humans",
+    "Bilingual support (English & Spanish)",
+    "Instant SMS and email notifications",
+    "Call recordings and transcripts",
+    "Call analytics and insights",
+    "Custom greeting and agent training",
+    "Auto SMS confirmations after bookings"
+  ],
+  "publicApiSurface": [
+    "Call forwarding setup",
+    "Agent training via website URL or Google Business Profile",
+    "Custom FAQ configuration",
+    "Appointment calendar integration (Lunacal AI Scheduling)",
+    "Notification preferences (SMS/email)",
+    "Spam filter rules",
+    "Call transfer routing",
+    "Call recordings and transcript access",
+    "Insights dashboard"
+  ]
 }
