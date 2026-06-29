@@ -2,6 +2,7 @@
 title: "Diagnosing and Fixing Ring Jenny Call Forwarding Issues"
 sidebarTitle: "Forwarding Issues"
 description: "Step-by-step guidance to diagnose and resolve call forwarding problems so Ring Jenny reliably answers every call to your business number."
+mode: "wide"
 ---
 
 Call forwarding is the bridge between your business number and Ring Jenny — if forwarding isn't set up correctly, Ring Jenny simply never receives the call. Work through the diagnostic steps below to find and fix the problem.
@@ -23,7 +24,7 @@ Follow these steps in order to identify exactly where the forwarding is breaking
     - **Goes straight to voicemail with no rings** → Your carrier voicemail may be set to pick up immediately, or forwarding is disabled.
   </Step>
   <Step title="Confirm the forwarding number matches your dashboard">
-    Open **Dashboard > Setup > Forwarding Number** and note the exact number shown. Then open your phone's call forwarding settings and verify the number entered there matches digit-for-digit. A single transposed digit sends every call to the wrong place.
+    Open **Dashboard \> Setup \> Forwarding Number** and note the exact number shown. Then open your phone's call forwarding settings and verify the number entered there matches digit-for-digit. A single transposed digit sends every call to the wrong place.
   </Step>
   <Step title="Check your 'forward after X rings' setting">
     If you're using conditional forwarding (forwarding when unanswered), your phone waits a set number of rings before forwarding. Set this to **2–3 rings maximum**. If it's set higher, your carrier voicemail may answer the call before Ring Jenny ever receives it.
@@ -77,7 +78,6 @@ Follow these steps in order to identify exactly where the forwarding is breaking
        - **Forward when busy** — forwards calls when you're already on a call
        - **Forward when unanswered** — forwards calls you don't pick up
        - **Forward when unreachable** — forwards calls when your phone is off or out of signal
-
     5. For Ring Jenny to answer all calls, set **Always forward** to your Ring Jenny forwarding number. Alternatively, set all four conditions to the same number.
     6. Tap **Enable** or **Turn on** to save each setting.
 
@@ -89,7 +89,7 @@ Follow these steps in order to identify exactly where the forwarding is breaking
     Most landline carriers support call forwarding via star codes. The standard codes are:
 
     | Action | Code |
-    |---|---|
+    | --- | --- |
     | Enable unconditional forwarding | `*72` followed by the forwarding number |
     | Disable unconditional forwarding | `*73` |
     | Enable forwarding when busy | `*90` followed by the forwarding number |
@@ -124,9 +124,11 @@ These are the most frequent reasons call forwarding fails, even when it appears 
   <Card title="Wrong number entered" icon="hashtag">
     Double-check every digit of the forwarding number against what's shown in your dashboard. Transposed digits are the most common cause of forwarding failures.
   </Card>
+
   <Card title="Voicemail wins the race" icon="voicemail">
     If your carrier voicemail is set to pick up after 4–5 rings and your forwarding delay is also 4–5 rings, voicemail often answers first. Set forwarding to trigger after 2–3 rings, or disable carrier voicemail.
   </Card>
+
   <Card title="Incomplete forwarding conditions" icon="list-check">
     On Android, forwarding is split into conditions: always, when busy, when unanswered, when unreachable. If you only set one condition, Ring Jenny won't answer in the others. Set all relevant conditions to your Ring Jenny number.
   </Card>
@@ -142,7 +144,7 @@ These are the most frequent reasons call forwarding fails, even when it appears 
 
 If you've worked through every step above and forwarding still isn't functioning, contact your phone carrier or VoIP provider directly. Tell them:
 
-> *"I need to set up unconditional call forwarding from my number to [Ring Jenny forwarding number]. Can you configure this on your end?"*
+> _"I need to set up unconditional call forwarding from my number to \[Ring Jenny forwarding number\]. Can you configure this on your end?"_
 
 Carriers can force-enable forwarding at the network level, which bypasses any device-level issues entirely. Once they confirm it's active, test again by calling your business number from a separate phone.
 
