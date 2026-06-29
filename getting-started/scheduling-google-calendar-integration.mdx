@@ -1,0 +1,111 @@
+---
+title: "Scheduling | Google Calendar Integration"
+description: "How to setup Ring Jenny to schedule appointments directly into your Google Calendar."
+mode: "wide"
+---
+
+Let Ring Jenny book appointments for you directly into your Google Calendar—no double bookings, no back-and-forth, and no missed leads. When a caller wants to schedule, Ring Jenny will find an available time, confirm it with the caller, and create the event automatically in your calendar.
+
+_\*Available on the Scale Plan or higher_
+
+---
+
+## **How It Works**
+
+When a caller asks to book an appointment, Ring Jenny will:
+
+1. Check your availability (based on your **Ring Jenny business hours** \+ **Google Calendar free/busy data**)
+2. Offer **2–3 appointment time options**
+3. Collect required information from the caller
+4. Create the event directly in your Google Calendar
+
+Google will send its **standard calendar confirmation email** to attendees—Ring Jenny does not send a separate confirmation text.
+
+---
+
+## **Information Ring Jenny Collects from Callers**
+
+When scheduling an appointment, Ring Jenny will ask the caller for:
+
+- **First & last name (required)**
+- **Email address (required)**
+- **Custom questions** (if configured in your Ring Jenny admin)
+
+This information will be included in the calendar event.
+
+---
+
+## **Connecting Google Calendar**
+
+1. Log into **Ring Jenny Admin**
+2. Navigate to **Integrations → Google Calendar**
+3. Click **Connect Calendar**
+4. Complete the **Google OAuth authorization**
+5. Toggle on **Schedule Directly** in the Appointments settings to enable
+
+## **What permissions Google requires**
+
+You’ll be asked to grant access for:
+
+- Viewing free/busy availability
+- Creating calendar events
+
+Ring Jenny only checks availability and creates events—Ring Jenny **cannot delete, reschedule, or view full calendar content**.
+
+---
+
+## **Re-syncing Your Calendar**
+
+If you change important settings in your Google Calendar—like timezone or default calendar—just click **Resync Google Calendar** inside Ring Jenny Admin so we can pull your updated configuration.
+
+---
+
+## **Using Appointment Links vs Direct Scheduling**
+
+You can choose to use **appointment links** _or_ **direct scheduling**—but not both at the same time.
+
+_Pro-tip: Make sure you check your T**ext-a-link Departments as well**. Delete any that offer to send a link to book an appointment._
+
+---
+
+## **FAQs**
+
+**Can I choose a different calendar for Ring Jenny to schedule into?**
+
+Not yet. V1 always schedules to your **default calendar**. Calendar selection will be added in a future update.
+
+**Does Ring Jenny send a booking confirmation email?**
+
+No. Booking confirmation emails and reminders are sent from your Google Calendar account.
+
+**Can I add more guests to the event automatically?**
+
+In V1, only the caller and calendar owner are added. Additional invitees will be added in future versions.
+
+**Can Ring Jenny reschedule or cancel appointments?**
+
+Not yet, but it’s planned for a future release.
+
+**Does Ring Jenny look up previous appointment history?**
+
+Not yet, but let us know if you want this!
+
+**Ring Jenny is offering to text a link to book an appointment instead of offering to book it directly with the customer during the call.**
+
+Check your text-a-link scenarios and FAQs. Ensure none of them reference sending a link to book an appointment.
+
+**Can I connect one of my Google Booking Pages so Ring Jenny can use those settings?**
+
+Unfortunately no. Google does not provide access for third-parties to access setting configurations within Booking Pages.
+
+**Can I connect multiple calendar integrations?**
+
+Not at this time.
+
+---
+
+## **Best Practices**
+
+- Keep your **Ring Jenny business hours** updated—they define what times Ring Jenny will offer.
+- Use clear naming for the appointment title (e.g., _Consultation_, _New Client Session_).
+- Make sure your Google Calendar timezone is correct and **resync if changed**.
